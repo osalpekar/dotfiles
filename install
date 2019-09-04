@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# symlinks all dotfiles into place in the home directory
+
+for f in *; do
+	ln -s ${PWD}/"$f" ~/."$f";
+done
