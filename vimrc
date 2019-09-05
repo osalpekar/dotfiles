@@ -14,7 +14,7 @@ call vundle#begin()
 	Plugin 'ctrlpvim/ctrlp.vim' " search across all files
 	Plugin 'scrooloose/nerdtree' " NerdTree lets you explore subdirectory through a sidebar
 	Plugin 'majutsushi/tagbar' " Tagbar lets you view the tags in the current file - open with F8
-	Bundle 'craigemery/vim-autotag'
+  "Bundle 'craigemery/vim-autotag'
 	Plugin 'rking/ag.vim'
 	Bundle 'jistr/vim-nerdtree-tabs'
 call vundle#end()            " required
