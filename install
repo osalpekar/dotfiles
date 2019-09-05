@@ -5,3 +5,5 @@
 for f in *; do
 	ln -s ${PWD}/"$f" ~/."$f";
 done
+
+rm ~/.install
